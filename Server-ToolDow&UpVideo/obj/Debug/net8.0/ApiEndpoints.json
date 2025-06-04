@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "GetAccessTokenZoom",
+    "RelativePath": "api/Home/GetAccessTokenZoom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "GetNewRecordingsAsync",
+    "RelativePath": "api/Home/GetNewRecordingsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -12,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<InformationMeetingContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("InformationMeetingContext")));
+builder.Services.AddMemoryCache();
+builder.Services.AddScoped<ZoomService>();
 // client for YouTube API and Zoom API
 builder.Services.AddHttpClient("Zoom", c =>
 {
