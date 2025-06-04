@@ -1,0 +1,6 @@
+@Server_ToolDow_UpVideo_HostAddress = http://localhost:5083
+
+GET {{Server_ToolDow_UpVideo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Server-ToolDow&amp;UpVideo.props" />
+</Project>
