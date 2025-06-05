@@ -21,7 +21,7 @@ builder.Services.AddHttpClient("Zoom", c =>
 });
 builder.Services.AddHttpClient("YouTube", c =>
 {
-    c.BaseAddress = new Uri("https://www.googleapis.com");
+    c.BaseAddress = new Uri("https://www.googleapis.com/");
 });
 
 builder.Services.AddScoped<IZoomService, ZoomService>();

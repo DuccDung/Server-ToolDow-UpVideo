@@ -120,7 +120,7 @@ namespace Server_ToolDow_UpVideo.Service
                             {
                                 // Process each meeting (implementation not provided in the original code)
                                 string uuid = meeting.Uuid ?? string.Empty;
-                                var recordings = await _client.GetAsync($"https://api.zoom.us/v2/meetings/{uuid}/recordings");
+                                var recordings = await _client.GetAsync($"v2/meetings/{uuid}/recordings");
                                 if (recordings.IsSuccessStatusCode)
                                 {
                                     var recordingJson = await recordings.Content.ReadAsStringAsync();
@@ -128,7 +128,7 @@ namespace Server_ToolDow_UpVideo.Service
                                     if (recordingData?.RecordingFiles == null) continue;
                                     foreach (var file in recordingData.RecordingFiles)
                                     {
-                                        if (file != null && !string.IsNullOrEmpty(file.DownloadUrl))
+                                        if (file != null && !string.IsNullOrEmpty(file.DownloadUrl) && file.FileType == "MP4")
                                         {
                                             // Here you can process the file, e.g., download it or store its information
                                             // For now, we just return the first file's download URL
@@ -152,7 +152,11 @@ namespace Server_ToolDow_UpVideo.Service
                     }
                 }
             }
-            throw new NotImplementedException();
+            return new ResponseModel<ZoomRecordingFile>
+            {
+                IsSussess = false,
+                Message = "No recordings found."
+            };
         }
         public async Task<ResponseModel<string>> RefeshAccessTokenZoom()
         {
@@ -180,6 +184,11 @@ namespace Server_ToolDow_UpVideo.Service
                 IsSussess = false,
                 Message = "Failed to refresh access token."
             };
+        }
+
+        public Task<ResponseModel<string>> SaveRecordingToDatabaseAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

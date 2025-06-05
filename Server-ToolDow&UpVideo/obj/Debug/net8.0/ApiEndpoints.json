@@ -18,5 +18,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "SaveRecordingToDatabaseAsync",
+    "RelativePath": "api/Home/SaveRecordingToDatabaseAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

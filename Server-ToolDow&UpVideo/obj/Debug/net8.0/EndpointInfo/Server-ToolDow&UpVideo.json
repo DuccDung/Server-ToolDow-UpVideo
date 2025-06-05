@@ -28,6 +28,18 @@
           }
         }
       }
+    },
+    "/api/Home/SaveRecordingToDatabaseAsync": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
