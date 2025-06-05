@@ -1,7 +1,9 @@
 ﻿using Azure.Core;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Newtonsoft.Json;
 using Server_ToolDow_UpVideo.Models;
+using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using ToolDowloadVideoAndUpToYoutube.Models;
@@ -11,13 +13,19 @@ namespace Server_ToolDow_UpVideo.Service
     public class ZoomService : IZoomService
     {
         private readonly HttpClient _client;
+        private readonly HttpClient _clientDownload;
         private readonly IConfiguration _configuration;
         private readonly IMemoryCache _cache;
-        public ZoomService(IHttpClientFactory factory, IConfiguration configuration, IMemoryCache memoryCache)
+        private readonly InformationMeetingContext _context;
+        private readonly IWebHostEnvironment _env;
+        public ZoomService(IHttpClientFactory factory, IConfiguration configuration, IMemoryCache memoryCache, InformationMeetingContext context, IWebHostEnvironment env)
         {
             _client = factory.CreateClient("Zoom");
+            _clientDownload = factory.CreateClient("ZoomDownload");
             _configuration = configuration;
             _cache = memoryCache;
+            _context = context;
+            _env = env;
         }
 
         public async Task<ResponseModel<string>> GetAccessTokenZoom()
@@ -63,6 +71,32 @@ namespace Server_ToolDow_UpVideo.Service
                     Message = "Failed to parse access token response."
                 };
             }
+        }
+        public async Task<bool> IsRecordingExist(string fileId)
+        {
+            var isRecordingExist = await _context.RecordingFiles.AnyAsync(m => m.FileId == fileId);
+            if (isRecordingExist)
+            {
+                return true; // recording already exists
+            }
+            return false;
+        }
+        public async Task<bool> IsMeetingExist(string UuId)
+        {
+            var isUuidExist = await _context.Meetings.AnyAsync(m => m.Uuid == UuId);
+            if (isUuidExist)
+            {
+                return true; // Meeting already exists
+            }
+            return false;
+        }
+        public static string SanitizeFileName(string fileName)
+        {
+            foreach (char c in Path.GetInvalidFileNameChars())
+            {
+                fileName = fileName.Replace(c, '_');
+            }
+            return fileName;
         }
         public async Task<ResponseModel<ZoomRecordingFile>> GetNewRecordingsAsync()
         {
@@ -126,12 +160,34 @@ namespace Server_ToolDow_UpVideo.Service
                                     var recordingJson = await recordings.Content.ReadAsStringAsync();
                                     var recordingData = JsonConvert.DeserializeObject<ZoomMeetingRecordingDetail>(recordingJson);
                                     if (recordingData?.RecordingFiles == null) continue;
+                                    // check if recording files exist
+                                    if (await IsMeetingExist(uuid) == false && !string.IsNullOrEmpty(uuid))
+                                    {
+                                        await _context.Meetings.AddAsync(new Meeting
+                                        {
+                                            Uuid = uuid,
+                                            Topic = recordingData.Topic,
+                                            StartTime = recordingData.StartTime,
+                                        });
+                                    }
                                     foreach (var file in recordingData.RecordingFiles)
                                     {
-                                        if (file != null && !string.IsNullOrEmpty(file.DownloadUrl) && file.FileType == "MP4")
+                                        if (file != null && !string.IsNullOrEmpty(file.DownloadUrl) && file.FileType == "MP4" && !string.IsNullOrEmpty(file.Id))
                                         {
                                             // Here you can process the file, e.g., download it or store its information
                                             // For now, we just return the first file's download URL
+                                            if (await IsRecordingExist(file.Id) == false)
+                                            {
+                                                await _context.AddAsync(new RecordingFile
+                                                {
+                                                    FileId = file.Id,
+                                                    FileName = file.FileType,
+                                                    DownloadUrl = file.DownloadUrl,
+                                                    MeetingUuid = uuid,
+                                                    DownloadedAt = null,
+                                                    FileType = file.FileType
+                                                });
+                                            }
                                             var recordingFile = new ZoomRecordingFile()
                                             {
                                                 Id = file.Id,
@@ -148,6 +204,7 @@ namespace Server_ToolDow_UpVideo.Service
                                 }
                             }
                         }
+                        await _context.SaveChangesAsync();
                         return responseModel;
                     }
                 }
@@ -185,10 +242,96 @@ namespace Server_ToolDow_UpVideo.Service
                 Message = "Failed to refresh access token."
             };
         }
-
-        public Task<ResponseModel<string>> SaveRecordingToDatabaseAsync()
+        public async Task<ResponseModel<string>> SaveRecordingToServerAsync(string downloadUrl, string fileName)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var isrefreshToken = await RefeshAccessTokenZoom();
+                if (!isrefreshToken.IsSussess)
+                {
+                    return new ResponseModel<string>
+                    {
+                        IsSussess = false,
+                        Message = isrefreshToken.Message
+                    };
+                }
+                // Check if the access token is cached
+                var accessToken = _cache.Get<string>("zoom_access_token");
+
+                fileName = SanitizeFileName(fileName);
+                string savePath = Path.Combine(_env.WebRootPath, "videos");
+                if (!Directory.Exists(savePath))
+                    Directory.CreateDirectory(savePath);
+                var separator = downloadUrl.Contains("?") ? "&" : "?";
+                string fullDownloadUrl = $"{downloadUrl}{separator}access_token={accessToken}";
+                var response = await _clientDownload.GetAsync(fullDownloadUrl, HttpCompletionOption.ResponseHeadersRead);
+                if (response.IsSuccessStatusCode)
+                {
+                    string filePath = Path.Combine(savePath, fileName);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write, FileShare.None))
+                    {
+                        await response.Content.CopyToAsync(fileStream);
+                    }
+
+                    return new ResponseModel<string>
+                    {
+                        IsSussess = true,
+                        Message = "Recording saved successfully.",
+                        Data = filePath
+                    };
+                }
+                else
+                {
+                    return new ResponseModel<string>
+                    {
+                        IsSussess = false,
+                        Message = $"Failed to download recording. Status code: {response.StatusCode}"
+                    };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new ResponseModel<string>
+                {
+                    IsSussess = false,
+                    Message = $"Error saving recording to database: {ex.Message}"
+                };
+            }
+        }
+
+        public async Task<ResponseModel<string>> SaveNewRecordingsAsync()
+        {
+            var listLink = await _context.RecordingFiles.Include(m => m.MeetingUu)
+                .Where(m => m.DownloadedAt == null && m.MeetingUu != null)
+                .Select(m => new { m.DownloadUrl, Topic = m.MeetingUu!.Topic ?? string.Empty })
+                .ToListAsync();
+            List<string> listDownloadUrlsFail = new List<string>();
+            foreach (var item in listLink)
+            {
+                if (!string.IsNullOrEmpty(item.DownloadUrl))
+                {
+                    var checkSave = await SaveRecordingToServerAsync(item.DownloadUrl, $"{item.Topic}_{DateTime.Now:yyyyMMdd_HHmmss}.mp4");
+                    if (!checkSave.IsSussess)
+                    {
+                        listDownloadUrlsFail.Add(item.DownloadUrl);
+                    }
+                    else
+                    {
+                        var recordingFile = await _context.RecordingFiles.FirstOrDefaultAsync(m => m.DownloadUrl == item.DownloadUrl);
+                        if (recordingFile != null)
+                        {
+                            //recordingFile.DownloadedAt = DateTime.Now;
+                            await _context.SaveChangesAsync();
+                        }
+                    }
+                }
+            }
+            return new ResponseModel<string>
+            {
+                IsSussess = true,
+                Message = "All recordings processed successfully.",
+                DataList = listDownloadUrlsFail
+            };
         }
     }
 }

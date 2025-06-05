@@ -172,3 +172,4 @@ D:\laptrinhweb\Server-ToolDow&UpVideo\Server-ToolDow&UpVideo\obj\Debug\net8.0\Se
 D:\laptrinhweb\Server-ToolDow&UpVideo\Server-ToolDow&UpVideo\obj\Debug\net8.0\Server-ToolDow&UpVideo.genruntimeconfig.cache
 D:\laptrinhweb\Server-ToolDow&UpVideo\Server-ToolDow&UpVideo\obj\Debug\net8.0\ref\Server-ToolDow&UpVideo.dll
 D:\laptrinhweb\Server-ToolDow&UpVideo\Server-ToolDow&UpVideo\obj\Debug\net8.0\Server-ToolDow&UpVideo.sourcelink.json
+D:\laptrinhweb\Server-ToolDow&UpVideo\Server-ToolDow&UpVideo\bin\Debug\net8.0\Server-ToolDow&UpVideo.staticwebassets.runtime.json

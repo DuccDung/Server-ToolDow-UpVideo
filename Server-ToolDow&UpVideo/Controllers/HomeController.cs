@@ -13,7 +13,7 @@ namespace Server_ToolDow_UpVideo.Controllers
     {
         private readonly IZoomService _zoomService;
         private readonly InformationMeetingContext _context;
-        public HomeController(IZoomService zoomService , InformationMeetingContext context)
+        public HomeController(IZoomService zoomService, InformationMeetingContext context)
         {
             _zoomService = zoomService;
             _context = context;
@@ -50,7 +50,15 @@ namespace Server_ToolDow_UpVideo.Controllers
         [Route("SaveRecordingToDatabaseAsync")]
         public async Task<IActionResult> SaveRecordingToDatabaseAsync()
         {
-            return Ok(await _context.RecordingFiles.ToListAsync());   
+            var response = await _zoomService.SaveNewRecordingsAsync();
+            if (response.IsSussess)
+            {
+                return Ok(response);
+            }
+            else
+            {
+                return BadRequest(response);
+            }
         }
     }
 }

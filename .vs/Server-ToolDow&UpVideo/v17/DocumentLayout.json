@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\service\\zoomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\service\\izoomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\service\\izoomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\InformationMeetingContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Server-ToolDow\u0026UpVideo\\Models\\InformationMeetingContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\models\\recordingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\models\\recordingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|d:\\laptrinhweb\\server-tooldow\u0026upvideo\\server-tooldow\u0026upvideo\\models\\informationmeetingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1458973B-8896-4C2E-B7DE-9485276923CB}|Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo.csproj|solutionrelative:server-tooldow\u0026upvideo\\models\\informationmeetingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 152,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,6 +71,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Meeting.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\Meeting.cs",
+              "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Models\\Meeting.cs",
+              "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\Meeting.cs",
+              "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Models\\Meeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:42:26.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "InformationMeetingContext.cs",
               "DocumentMoniker": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\InformationMeetingContext.cs",
               "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Models\\InformationMeetingContext.cs",
@@ -70,18 +91,17 @@
               "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Models\\InformationMeetingContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T07:24:26.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T07:24:26.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Program.cs",
               "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Program.cs",
               "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Program.cs",
               "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T07:21:21.699Z",
               "EditorCaption": ""
@@ -94,7 +114,7 @@
               "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Service\\ZoomService.cs",
               "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Service\\ZoomService.cs",
               "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Service\\ZoomService.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAkwIwAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAANkAAAAAAAAAAAAIwDEBAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T09:21:07.984Z",
               "EditorCaption": ""
@@ -107,22 +127,35 @@
               "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Service\\IZoomService.cs",
               "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Service\\IZoomService.cs",
               "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Service\\IZoomService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T07:05:48.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADgvzsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T09:10:58.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecordingFile.cs",
+              "DocumentMoniker": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\RecordingFile.cs",
+              "RelativeDocumentMoniker": "Server-ToolDow\u0026UpVideo\\Models\\RecordingFile.cs",
+              "ToolTip": "D:\\laptrinhweb\\Server-ToolDow\u0026UpVideo\\Server-ToolDow\u0026UpVideo\\Models\\RecordingFile.cs",
+              "RelativeToolTip": "Server-ToolDow\u0026UpVideo\\Models\\RecordingFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T08:42:49.185Z",
               "EditorCaption": ""
             }
           ]

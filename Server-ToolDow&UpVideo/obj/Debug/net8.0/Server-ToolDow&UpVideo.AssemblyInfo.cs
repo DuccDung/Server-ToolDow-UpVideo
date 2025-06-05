@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Server-ToolDow&UpVideo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+179437dc874cb875e45dfcca232c12694fee7f5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+227c02306f4ee5f77809d7c0e4c2ebee8a3af095")]
 [assembly: System.Reflection.AssemblyProductAttribute("Server-ToolDow&UpVideo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Server-ToolDow&UpVideo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

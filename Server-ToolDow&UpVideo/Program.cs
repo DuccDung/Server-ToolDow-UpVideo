@@ -19,6 +19,11 @@ builder.Services.AddHttpClient("Zoom", c =>
 {
     c.BaseAddress = new Uri("https://zoom.us/");
 });
+builder.Services.AddHttpClient("ZoomDownload", client =>
+{
+    client.Timeout = TimeSpan.FromMinutes(10);
+});
+
 builder.Services.AddHttpClient("YouTube", c =>
 {
     c.BaseAddress = new Uri("https://www.googleapis.com/");

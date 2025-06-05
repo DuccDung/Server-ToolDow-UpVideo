@@ -7,6 +7,7 @@ namespace Server_ToolDow_UpVideo.Service
         Task<ResponseModel<string>> GetAccessTokenZoom();
         Task<ResponseModel<string>> RefeshAccessTokenZoom();
         Task<ResponseModel<ZoomRecordingFile>> GetNewRecordingsAsync();
-        Task<ResponseModel<string>> SaveRecordingToDatabaseAsync();
+        Task<ResponseModel<string>> SaveNewRecordingsAsync();
+
     }
 }

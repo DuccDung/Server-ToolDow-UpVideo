@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "xaOmQxPnGYhi5YYUieTrR92cRGSft6I+DnPQt2k9zKE=",
+  "Hash": "LtgER0kiZDiqoOFLiviD6p/On+Hyjaq2k4thtTthUMs=",
   "Source": "Server-ToolDow&UpVideo",
   "BasePath": "_content/Server-ToolDow&UpVideo",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server-ToolDow&UpVideo\\wwwroot",
+      "Source": "Server-ToolDow&UpVideo",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }
