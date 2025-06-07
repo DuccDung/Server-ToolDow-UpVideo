@@ -1,0 +1,94 @@
+[
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.GoogleAuthController",
+    "Method": "LoginWithGoogle",
+    "RelativePath": "api/GoogleAuth/LoginWithGoogle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.GoogleAuthController",
+    "Method": "OAuth2Callback",
+    "RelativePath": "api/GoogleAuth/oauth2callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "Check",
+    "RelativePath": "api/Home/Check",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "GetAccessTokenZoom",
+    "RelativePath": "api/Home/GetAccessTokenZoom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "GetNewRecordingsAsync",
+    "RelativePath": "api/Home/GetNewRecordingsAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "SaveRecordingToDatabaseAsync",
+    "RelativePath": "api/Home/SaveRecordingToDatabaseAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "InitTokenFromRefreshTokenAsync",
+    "RelativePath": "api/Home/SaveToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Server_ToolDow_UpVideo.Controllers.HomeController",
+    "Method": "UploadVideo",
+    "RelativePath": "api/Home/UploadVideo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

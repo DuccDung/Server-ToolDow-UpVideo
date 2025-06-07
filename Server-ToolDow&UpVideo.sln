@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35906.104
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server-ToolDow&UpVideo", "Server-ToolDow&UpVideo\Server-ToolDow&UpVideo.csproj", "{1458973B-8896-4C2E-B7DE-9485276923CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Get_Token", "Client_Get_Token\Client_Get_Token.csproj", "{C77BF950-3C7D-41D3-8C39-EB39A0886C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1458973B-8896-4C2E-B7DE-9485276923CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1458973B-8896-4C2E-B7DE-9485276923CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1458973B-8896-4C2E-B7DE-9485276923CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1458973B-8896-4C2E-B7DE-9485276923CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77BF950-3C7D-41D3-8C39-EB39A0886C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77BF950-3C7D-41D3-8C39-EB39A0886C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77BF950-3C7D-41D3-8C39-EB39A0886C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77BF950-3C7D-41D3-8C39-EB39A0886C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E26E0BB-F137-42B1-BCD7-346323A33505}
+	EndGlobalSection
+EndGlobal

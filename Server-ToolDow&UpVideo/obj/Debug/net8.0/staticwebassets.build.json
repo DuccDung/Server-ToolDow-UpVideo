@@ -1,0 +1,1773 @@
+{
+  "Version": 1,
+  "Hash": "Dqz2+LMtySJjNBOZ93b9bGYSGd9fAAv1UwPegWaD7ns=",
+  "Source": "Server-ToolDow&UpVideo",
+  "BasePath": "_content/Server-ToolDow&UpVideo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server-ToolDow&UpVideo\\wwwroot",
+      "Source": "Server-ToolDow&UpVideo",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/2eb62f8f-c726-4a92-9e16-a9e4add549d4#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l4qs3x69ul",
+      "Integrity": "RRrdcgh8vaceZTz9wDJS8MxTnhme4iMuXU8YHiZbIcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/4bb5f468-058c-46d9-83d5-ca57db61a2b9#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2pl4c6xir",
+      "Integrity": "OUY05haunxdQZKipar+IA/k3BMILOyxlLmrZBvw0F0Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/4c61c7f9-39b6-4537-9b78-7580b0c861e5#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wp3dv1kjd6",
+      "Integrity": "FHe/1hX7biozUu9hfuNd4JM+lf3VTjYWkOvQTV4nR3E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/5b8be68f-3b54-49a3-8efd-fe5719816cfd#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l1hihuixi4",
+      "Integrity": "yW+3Vf/o3M1ur7+wWIMr/Z8VVefjobR+0K4LdumMsAs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/6d0e5f91-48f1-4190-b353-08f32a4b5177#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5rdn8dijt3",
+      "Integrity": "nx5hr6IVx7b/eaudVjbiAtYCM7BHeNbJPusQFl4ICfc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/7c6cc043-d81b-4f7a-b184-8cec1e283c44#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "spo2p4nzmu",
+      "Integrity": "oGIopMHqZMpSbrcwAmp6LMSj5AaL/2DlCQHmCyyMky8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/83fe406d-0331-4e66-b1e5-91fb4c0fd10d#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "skg8x8nsfq",
+      "Integrity": "7FZpqu7Y445jvnbr0NFl7eKPsB/1A4UQA00FmHkH5Ig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/88dff439-0c48-4fb9-b891-2fbeb5c2f4ce#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7godcfiyfv",
+      "Integrity": "+XoUxkcCMoDbf6gicEmrjmUe1scoUuq1E9ret756QG4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t6t71wiizk",
+      "Integrity": "hVA2k+NzcbcVyeFPssJ2RxuCLckbgTeIha3DywYBCAs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\921aecee-688e-4571-86ef-7af790fb0320.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/921aecee-688e-4571-86ef-7af790fb0320#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v6y7est9dy",
+      "Integrity": "13YA73cbKfEkrW3ayn+XdtROzcIsNEKCJlkiLYgpRAk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\921aecee-688e-4571-86ef-7af790fb0320.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\9f2c7565-668c-4303-904a-80174618a6f3.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/9f2c7565-668c-4303-904a-80174618a6f3#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q4qwv1t67c",
+      "Integrity": "tkCyGK7Afqyc9mOQQl+vl1R6quudtETRfnjWdm2RY94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\9f2c7565-668c-4303-904a-80174618a6f3.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/b93777fb-01a3-4bff-8f7c-3ba885162ff6#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xj4vbc2vwa",
+      "Integrity": "M1wAE09RnLDKKAA2FcdXUQitXgyx9i4bVsni77qS1dc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/cc0ada33-cda6-4ce1-bf15-d45978dfb504#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fdulsqb361",
+      "Integrity": "/b5zXU667kSL5dvkiMVEbV+1ISyJuG/jAGGOddT2jPA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\ea302742-6d41-4470-a857-0072d1d0fcf2.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/ea302742-6d41-4470-a857-0072d1d0fcf2#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e177d0496n",
+      "Integrity": "YszwBiGDd5lx87yKH3sWk+JIoe6PpTrfykRveyX53Jk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\ea302742-6d41-4470-a857-0072d1d0fcf2.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oywy3vul48",
+      "Integrity": "YLoi+1HfqF1B2OztIEyotZrUMvwCf9/X41EHldZdGkg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/f4b84de2-4017-43b1-a377-741fb4b6e8ce#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "72mywd5g28",
+      "Integrity": "L2hIl9oXXhJL0+Bq0vJvQhgvfjD1sBR/nc4Kk3m8R+8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4"
+    },
+    {
+      "Identity": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4",
+      "SourceId": "Server-ToolDow&UpVideo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\",
+      "BasePath": "_content/Server-ToolDow&UpVideo",
+      "RelativePath": "videos/fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t4c9m5fjwl",
+      "Integrity": "U6BbjfEISkSBp96VGQ8YQ1hWGvfX4fdBadRV0hd9uKU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "videos/2eb62f8f-c726-4a92-9e16-a9e4add549d4.l4qs3x69ul.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161984040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RRrdcgh8vaceZTz9wDJS8MxTnhme4iMuXU8YHiZbIcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l4qs3x69ul"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RRrdcgh8vaceZTz9wDJS8MxTnhme4iMuXU8YHiZbIcI="
+        }
+      ]
+    },
+    {
+      "Route": "videos/2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\2eb62f8f-c726-4a92-9e16-a9e4add549d4.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "161984040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RRrdcgh8vaceZTz9wDJS8MxTnhme4iMuXU8YHiZbIcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RRrdcgh8vaceZTz9wDJS8MxTnhme4iMuXU8YHiZbIcI="
+        }
+      ]
+    },
+    {
+      "Route": "videos/4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306337518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUY05haunxdQZKipar+IA/k3BMILOyxlLmrZBvw0F0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUY05haunxdQZKipar+IA/k3BMILOyxlLmrZBvw0F0Q="
+        }
+      ]
+    },
+    {
+      "Route": "videos/4bb5f468-058c-46d9-83d5-ca57db61a2b9.x2pl4c6xir.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306337518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUY05haunxdQZKipar+IA/k3BMILOyxlLmrZBvw0F0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2pl4c6xir"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/4bb5f468-058c-46d9-83d5-ca57db61a2b9.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUY05haunxdQZKipar+IA/k3BMILOyxlLmrZBvw0F0Q="
+        }
+      ]
+    },
+    {
+      "Route": "videos/4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209553105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FHe/1hX7biozUu9hfuNd4JM+lf3VTjYWkOvQTV4nR3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FHe/1hX7biozUu9hfuNd4JM+lf3VTjYWkOvQTV4nR3E="
+        }
+      ]
+    },
+    {
+      "Route": "videos/4c61c7f9-39b6-4537-9b78-7580b0c861e5.wp3dv1kjd6.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209553105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FHe/1hX7biozUu9hfuNd4JM+lf3VTjYWkOvQTV4nR3E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wp3dv1kjd6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/4c61c7f9-39b6-4537-9b78-7580b0c861e5.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FHe/1hX7biozUu9hfuNd4JM+lf3VTjYWkOvQTV4nR3E="
+        }
+      ]
+    },
+    {
+      "Route": "videos/5b8be68f-3b54-49a3-8efd-fe5719816cfd.l1hihuixi4.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yW+3Vf/o3M1ur7+wWIMr/Z8VVefjobR+0K4LdumMsAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l1hihuixi4"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yW+3Vf/o3M1ur7+wWIMr/Z8VVefjobR+0K4LdumMsAs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\5b8be68f-3b54-49a3-8efd-fe5719816cfd.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yW+3Vf/o3M1ur7+wWIMr/Z8VVefjobR+0K4LdumMsAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:27:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yW+3Vf/o3M1ur7+wWIMr/Z8VVefjobR+0K4LdumMsAs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/6d0e5f91-48f1-4190-b353-08f32a4b5177.5rdn8dijt3.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219547548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nx5hr6IVx7b/eaudVjbiAtYCM7BHeNbJPusQFl4ICfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:28:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5rdn8dijt3"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nx5hr6IVx7b/eaudVjbiAtYCM7BHeNbJPusQFl4ICfc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\6d0e5f91-48f1-4190-b353-08f32a4b5177.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "219547548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nx5hr6IVx7b/eaudVjbiAtYCM7BHeNbJPusQFl4ICfc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 17:28:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nx5hr6IVx7b/eaudVjbiAtYCM7BHeNbJPusQFl4ICfc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "840290399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oGIopMHqZMpSbrcwAmp6LMSj5AaL/2DlCQHmCyyMky8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oGIopMHqZMpSbrcwAmp6LMSj5AaL/2DlCQHmCyyMky8="
+        }
+      ]
+    },
+    {
+      "Route": "videos/7c6cc043-d81b-4f7a-b184-8cec1e283c44.spo2p4nzmu.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "840290399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oGIopMHqZMpSbrcwAmp6LMSj5AaL/2DlCQHmCyyMky8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "spo2p4nzmu"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/7c6cc043-d81b-4f7a-b184-8cec1e283c44.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oGIopMHqZMpSbrcwAmp6LMSj5AaL/2DlCQHmCyyMky8="
+        }
+      ]
+    },
+    {
+      "Route": "videos/83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7FZpqu7Y445jvnbr0NFl7eKPsB/1A4UQA00FmHkH5Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7FZpqu7Y445jvnbr0NFl7eKPsB/1A4UQA00FmHkH5Ig="
+        }
+      ]
+    },
+    {
+      "Route": "videos/83fe406d-0331-4e66-b1e5-91fb4c0fd10d.skg8x8nsfq.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "194521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7FZpqu7Y445jvnbr0NFl7eKPsB/1A4UQA00FmHkH5Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "skg8x8nsfq"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/83fe406d-0331-4e66-b1e5-91fb4c0fd10d.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7FZpqu7Y445jvnbr0NFl7eKPsB/1A4UQA00FmHkH5Ig="
+        }
+      ]
+    },
+    {
+      "Route": "videos/88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.7godcfiyfv.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6401795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+XoUxkcCMoDbf6gicEmrjmUe1scoUuq1E9ret756QG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7godcfiyfv"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+XoUxkcCMoDbf6gicEmrjmUe1scoUuq1E9ret756QG4="
+        }
+      ]
+    },
+    {
+      "Route": "videos/88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\88dff439-0c48-4fb9-b891-2fbeb5c2f4ce.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6401795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+XoUxkcCMoDbf6gicEmrjmUe1scoUuq1E9ret756QG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+XoUxkcCMoDbf6gicEmrjmUe1scoUuq1E9ret756QG4="
+        }
+      ]
+    },
+    {
+      "Route": "videos/8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175048380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hVA2k+NzcbcVyeFPssJ2RxuCLckbgTeIha3DywYBCAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hVA2k+NzcbcVyeFPssJ2RxuCLckbgTeIha3DywYBCAs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.t6t71wiizk.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175048380"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hVA2k+NzcbcVyeFPssJ2RxuCLckbgTeIha3DywYBCAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t6t71wiizk"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/8d175fa1-9f8f-44ef-b3b7-81cffd1e9f65.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hVA2k+NzcbcVyeFPssJ2RxuCLckbgTeIha3DywYBCAs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/921aecee-688e-4571-86ef-7af790fb0320.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\921aecee-688e-4571-86ef-7af790fb0320.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90626034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13YA73cbKfEkrW3ayn+XdtROzcIsNEKCJlkiLYgpRAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-13YA73cbKfEkrW3ayn+XdtROzcIsNEKCJlkiLYgpRAk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/921aecee-688e-4571-86ef-7af790fb0320.v6y7est9dy.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\921aecee-688e-4571-86ef-7af790fb0320.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90626034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"13YA73cbKfEkrW3ayn+XdtROzcIsNEKCJlkiLYgpRAk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v6y7est9dy"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/921aecee-688e-4571-86ef-7af790fb0320.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-13YA73cbKfEkrW3ayn+XdtROzcIsNEKCJlkiLYgpRAk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/9f2c7565-668c-4303-904a-80174618a6f3.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\9f2c7565-668c-4303-904a-80174618a6f3.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23550323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tkCyGK7Afqyc9mOQQl+vl1R6quudtETRfnjWdm2RY94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tkCyGK7Afqyc9mOQQl+vl1R6quudtETRfnjWdm2RY94="
+        }
+      ]
+    },
+    {
+      "Route": "videos/9f2c7565-668c-4303-904a-80174618a6f3.q4qwv1t67c.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\9f2c7565-668c-4303-904a-80174618a6f3.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23550323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tkCyGK7Afqyc9mOQQl+vl1R6quudtETRfnjWdm2RY94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q4qwv1t67c"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/9f2c7565-668c-4303-904a-80174618a6f3.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tkCyGK7Afqyc9mOQQl+vl1R6quudtETRfnjWdm2RY94="
+        }
+      ]
+    },
+    {
+      "Route": "videos/b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "967837076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M1wAE09RnLDKKAA2FcdXUQitXgyx9i4bVsni77qS1dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M1wAE09RnLDKKAA2FcdXUQitXgyx9i4bVsni77qS1dc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/b93777fb-01a3-4bff-8f7c-3ba885162ff6.xj4vbc2vwa.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "967837076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M1wAE09RnLDKKAA2FcdXUQitXgyx9i4bVsni77qS1dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:10:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xj4vbc2vwa"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/b93777fb-01a3-4bff-8f7c-3ba885162ff6.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M1wAE09RnLDKKAA2FcdXUQitXgyx9i4bVsni77qS1dc="
+        }
+      ]
+    },
+    {
+      "Route": "videos/cc0ada33-cda6-4ce1-bf15-d45978dfb504.fdulsqb361.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172845245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/b5zXU667kSL5dvkiMVEbV+1ISyJuG/jAGGOddT2jPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdulsqb361"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/b5zXU667kSL5dvkiMVEbV+1ISyJuG/jAGGOddT2jPA="
+        }
+      ]
+    },
+    {
+      "Route": "videos/cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\cc0ada33-cda6-4ce1-bf15-d45978dfb504.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172845245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/b5zXU667kSL5dvkiMVEbV+1ISyJuG/jAGGOddT2jPA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/b5zXU667kSL5dvkiMVEbV+1ISyJuG/jAGGOddT2jPA="
+        }
+      ]
+    },
+    {
+      "Route": "videos/ea302742-6d41-4470-a857-0072d1d0fcf2.e177d0496n.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\ea302742-6d41-4470-a857-0072d1d0fcf2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243690282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YszwBiGDd5lx87yKH3sWk+JIoe6PpTrfykRveyX53Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e177d0496n"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/ea302742-6d41-4470-a857-0072d1d0fcf2.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YszwBiGDd5lx87yKH3sWk+JIoe6PpTrfykRveyX53Jk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/ea302742-6d41-4470-a857-0072d1d0fcf2.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\ea302742-6d41-4470-a857-0072d1d0fcf2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "243690282"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YszwBiGDd5lx87yKH3sWk+JIoe6PpTrfykRveyX53Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YszwBiGDd5lx87yKH3sWk+JIoe6PpTrfykRveyX53Jk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16491804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLoi+1HfqF1B2OztIEyotZrUMvwCf9/X41EHldZdGkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLoi+1HfqF1B2OztIEyotZrUMvwCf9/X41EHldZdGkg="
+        }
+      ]
+    },
+    {
+      "Route": "videos/f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.oywy3vul48.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16491804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YLoi+1HfqF1B2OztIEyotZrUMvwCf9/X41EHldZdGkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oywy3vul48"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/f2256ad6-931c-4cf0-ab9c-ef86b74cfc1c.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YLoi+1HfqF1B2OztIEyotZrUMvwCf9/X41EHldZdGkg="
+        }
+      ]
+    },
+    {
+      "Route": "videos/f4b84de2-4017-43b1-a377-741fb4b6e8ce.72mywd5g28.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588038940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L2hIl9oXXhJL0+Bq0vJvQhgvfjD1sBR/nc4Kk3m8R+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72mywd5g28"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2hIl9oXXhJL0+Bq0vJvQhgvfjD1sBR/nc4Kk3m8R+8="
+        }
+      ]
+    },
+    {
+      "Route": "videos/f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\f4b84de2-4017-43b1-a377-741fb4b6e8ce.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588038940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L2hIl9oXXhJL0+Bq0vJvQhgvfjD1sBR/nc4Kk3m8R+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L2hIl9oXXhJL0+Bq0vJvQhgvfjD1sBR/nc4Kk3m8R+8="
+        }
+      ]
+    },
+    {
+      "Route": "videos/fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4600670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U6BbjfEISkSBp96VGQ8YQ1hWGvfX4fdBadRV0hd9uKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U6BbjfEISkSBp96VGQ8YQ1hWGvfX4fdBadRV0hd9uKU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.t4c9m5fjwl.mp4",
+      "AssetFile": "D:\\laptrinhweb\\Server-ToolDow&UpVideo\\Server-ToolDow&UpVideo\\wwwroot\\videos\\fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4600670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U6BbjfEISkSBp96VGQ8YQ1hWGvfX4fdBadRV0hd9uKU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 13:11:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t4c9m5fjwl"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/fc9ba75b-1e46-4b7c-a5cd-b6368ab8d9d7.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U6BbjfEISkSBp96VGQ8YQ1hWGvfX4fdBadRV0hd9uKU="
+        }
+      ]
+    }
+  ]
+}
